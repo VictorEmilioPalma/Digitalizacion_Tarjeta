@@ -10,8 +10,8 @@ table = Table(title="HISTORIAL")
 
 table.add_column("Revisado", style="cyan", no_wrap=True)
 table.add_column("Sustituído", style="magenta")
-table.add_column("Parte", justify="right", style="green")
-table.add_column("Proximo Cambio", justify="right")
+table.add_column("Parte", justify="center", style="green")
+table.add_column("Proximo Cambio", justify="center")
 
 console = Console()
 
